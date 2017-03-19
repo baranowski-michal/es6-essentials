@@ -1,5 +1,13 @@
-/**
- * Created by Bombel on 12.03.2017.
- */
-console.log("Hello World! (from webpack)");
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 
+class App extends Component {
+    render() {
+        return (
+            <div>React JS and JSX in action!</div>
+        )
+    }
+}
+
+
+ReactDOM.render(<App />, document.getElementById('root'));
